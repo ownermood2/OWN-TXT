@@ -185,3 +185,138 @@ KeyError: 7615648542534664196
 10-Mar-26 21:11:39 - WARNING - BadMsgNotification: [33] The msg_seqno is too high. [session.py:360]
 10-Mar-26 21:17:22 - WARNING - BadMsgNotification: [33] The msg_seqno is too high. [session.py:360]
 10-Mar-26 21:17:22 - WARNING - BadMsgNotification: [33] The msg_seqno is too high. [session.py:360]
+10-Mar-26 23:34:27 - ERROR - Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage") [dispatcher.py:253]
+Traceback (most recent call last):
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/wsl/mybot/uploader-testing-main/modules/main.py", line 169, in back_to_main_menu
+    await callback_query.message.edit_media(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 2903, in edit_media
+    return await self._client.edit_message_media(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/methods/messages/edit_message_media.py", line 270, in edit_message_media
+    r = await self.invoke(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageNotModified: Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage")
+10-Mar-26 23:34:30 - ERROR - Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage") [dispatcher.py:253]
+Traceback (most recent call last):
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/wsl/mybot/uploader-testing-main/modules/main.py", line 328, in cmd
+    await callback_query.message.edit_media(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 2903, in edit_media
+    return await self._client.edit_message_media(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/methods/messages/edit_message_media.py", line 270, in edit_message_media
+    r = await self.invoke(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageNotModified: Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage")
+10-Mar-26 23:34:35 - ERROR - Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage") [dispatcher.py:253]
+Traceback (most recent call last):
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/wsl/mybot/uploader-testing-main/modules/main.py", line 456, in pdf_thumbnail_button
+    await callback_query.message.edit_media(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 2903, in edit_media
+    return await self._client.edit_message_media(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/methods/messages/edit_message_media.py", line 270, in edit_message_media
+    r = await self.invoke(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageNotModified: Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage")
+10-Mar-26 23:34:39 - ERROR - Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage") [dispatcher.py:253]
+Traceback (most recent call last):
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/wsl/mybot/uploader-testing-main/modules/main.py", line 328, in cmd
+    await callback_query.message.edit_media(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 2903, in edit_media
+    return await self._client.edit_message_media(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/methods/messages/edit_message_media.py", line 270, in edit_message_media
+    r = await self.invoke(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageNotModified: Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage")
+10-Mar-26 23:34:40 - ERROR - Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage") [dispatcher.py:253]
+Traceback (most recent call last):
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/wsl/mybot/uploader-testing-main/modules/main.py", line 311, in settings_button
+    await callback_query.message.edit_media(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 2903, in edit_media
+    return await self._client.edit_message_media(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/methods/messages/edit_message_media.py", line 270, in edit_message_media
+    r = await self.invoke(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageNotModified: Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage")
+10-Mar-26 23:34:45 - ERROR - Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage") [dispatcher.py:253]
+Traceback (most recent call last):
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/wsl/mybot/uploader-testing-main/modules/main.py", line 169, in back_to_main_menu
+    await callback_query.message.edit_media(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 2903, in edit_media
+    return await self._client.edit_message_media(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/methods/messages/edit_message_media.py", line 270, in edit_message_media
+    r = await self.invoke(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageNotModified: Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage")
+10-Mar-26 23:36:20 - ERROR - Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage") [dispatcher.py:253]
+Traceback (most recent call last):
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "/home/wsl/mybot/uploader-testing-main/modules/main.py", line 89, in start
+    await start_message.edit_text(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 2803, in edit_text
+    return await self._client.edit_message_text(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/methods/messages/edit_message_text.py", line 82, in edit_message_text
+    r = await self.invoke(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/wsl/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageNotModified: Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage")
