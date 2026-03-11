@@ -13,7 +13,7 @@ CREDIT_LINK = environ.get("CREDIT_LINK", 'https://t.me/CLAT_OWNER')
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
 # MongoDB Configuration
-MONGO_URL = environ.get("MONGO_URL", "mongodb+srv://ownermood1_db_user:v9EoPgbKuSdeoOWb@cluster0.zmernea.mongodb.net/?appName=Cluster0")
+MONGO_URL = 'mongodb+srv://timep2176_db_user:uqTsQZJ8cggFgRQS@cluster0.ukkb8p4.mongodb.net/?appName=Cluster0'
 DATABASE_NAME = environ.get("DATABASE_NAME", "eagle")
 
 # Owner and Admin Configuration
